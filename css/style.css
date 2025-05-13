@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "yekan";
+    src: url("../fonts/Yekan.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  scroll-behavior: smooth !important;
+}
+a {
+  font-weight: 500;
+  text-decoration: inherit;
+}
+li{
+  list-style: none;
+}
+body {
+  width: 100vw;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: var(--background);
+  font-family: "yekan";
+}
+select:focus,
+select:focus-visible {
+  all: unset;
+}
+/* start style main page */
+.main-page {
+  max-width: 1280px;
+  width: 95vw;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/* end style main page */
+/* start style top header */
+.top-header{
+  width: 100%;
+  height: 78px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-header ul{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.top-header ul li a.active{
+  color: #f9933b;
+  font-weight: 600;
+}
+.top-header ul li a{
+  color: #999999;
+  font-size: 16px;
+  font-weight: 400;
+  
+}
+.support{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 25px;
+}
+.support .phone-support img{
+  width: 20px;
+  height: 20px;
+}
+.support .phone{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.support .phone h5{
+  color: #999999;
+  font-size: 16px;
+  font-weight: 300;
+}
+.support .phone span{
+  color: #f9933b;
+}
+.support .phone h2{
+  font-style: 14px;
+  font-weight: 400;
+  color: #999999;
+}
+/* end style top header */
