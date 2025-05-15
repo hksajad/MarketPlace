@@ -160,7 +160,7 @@ body {
   outline: none;
   border: none;
 }
-.order{
+.search .order{
   background: hsla(38, 100%, 50%, 1);
 
 background: linear-gradient(135deg, hsla(38, 100%, 50%, 1) 0%, hsla(25, 100%, 54%, 1) 42%);
@@ -178,13 +178,13 @@ justify-content: space-around;
 align-items: center;
 border-radius: 20px;
 }
-.order .icon-order img{
+.search .order .icon-order img{
   width: 50px;
   height: 50px;
   border-radius: 10px;
   margin-top: 7px;
 }
-.order .title-order h2{
+.search .order .title-order h2{
   width: 57px;
   font-size: 14px;
   font-weight: 600;
@@ -192,3 +192,71 @@ border-radius: 20px;
   color: #fff;
 }
 /* end style top header */
+/* start style header */
+.header{
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.header .slider-header img{
+  width: 90%;
+}
+.header .pack-header{
+  width: 386px;
+  background-color: #2a2a2a34;
+  padding: 10px;
+  border-radius: 24px;
+}
+.header .pack-header .off-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.header .pack-header .off-title .box-title{
+  width: 119px;
+  height: 50px;
+  background-color: #f9933b;
+  border-radius: 24px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header .pack-header .off-title .icon-pack_title{
+  margin-top: 5px;
+}
+.header .pack-header .off-title .box-title .titles{
+  background-color: #f5c26b;
+  color: #fff;
+  font-size: 10px;
+  width: 53px;
+  text-align: center;
+  border-radius: 25px;
+  padding: 4px;
+}
+.header .pack-header .off-title .border{
+  width: 131px;
+  height: 1px;
+    background-color: #ecd2a5;
+
+}
+.header .pack-header .off-title .price-off span{
+  color: #f9933b;
+  font-weight: 600;
+  font-size: 16px;
+}
+.header .pack-header .img_icon-pack{
+  margin-top: 20px;
+}
+.header .pack-header .titr h2{
+  color: #333;
+  font-weight: 600;
+  font-size: 18px;
+}
+.header .pack-header .titr span{
+  font-size: 14px;
+  font-weight: 300;
+  color: #666;
+}
+/* end style header */
