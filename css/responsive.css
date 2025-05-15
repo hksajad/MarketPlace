@@ -1,38 +1,84 @@
 @media (min-width: 1400px) {
-   
 }
 
 @media screen and (max-width: 1400px) {
-    
 }
 
-
 @media screen and (max-width: 1200px) {
-   
 }
 
 @media screen and (max-width: 992px) {
-    
+  .form {
+    width: 370px;
+  }
 }
-
 @media screen and (max-width: 768px) {
-   .top-header{
-    display: none;
-   }
+  .top-header ul {
+    position: absolute;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+    top: 5rem;
+    background-color: #353535;
+    border-radius: 10px;
+    margin: 0 15px;
+    text-align: center;
+    padding: 10px;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    gap: 25px;
+    z-index: 1000;
+  }
+  ul.show_menu {
+    height: 270px;
+    visibility: visible;
+  }
+  .toggle_menu-open {
+    display: block;
+    color: #999999;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .search .content {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+  }
+  .form {
+    width: 95vw;
+  }
+  .form .icon {
+    font-size: 20px;
+    color: #999999;
+  }
+  .form input {
+    padding: 20px 40px;
+    border: 1px solid #999999;
+    border-radius: 10px;
+  }
+  .order {
+    position: absolute;
+    left: 15px;
+    margin-top: -83px;
+  }
+  svg{
+    width: 180px;
+  }
 }
 
 @media screen and (max-width: 576px) {
-    
 }
 @media screen and (max-width: 460px) {
-    
 }
 
 @media screen and (max-width: 410px) {
-   
 }
 
 @media screen and (max-width: 350px) {
-
 }
-
