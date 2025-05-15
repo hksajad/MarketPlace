@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 992px) {
   .form {
-    width: 370px;
+    width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -45,30 +45,44 @@
     font-size: 30px;
     cursor: pointer;
   }
+  .search {
+    flex-wrap: wrap;
+  }
   .search .content {
     display: flex;
     align-items: start;
     flex-direction: column;
   }
-  .form {
-    width: 95vw;
+  .content,
+  .order {
+    order: 1;
+    width: 50%;
+  }
+  .order {
+    max-width: 140px;
+    height: 60px;
+  }
+  .order .icon-order img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .form-box {
+    order: 2;
+    width: 100%;
   }
   .form .icon {
     font-size: 20px;
     color: #999999;
   }
   .form input {
-    padding: 20px 40px;
-    border: 1px solid #999999;
-    border-radius: 10px;
+    width: 100%;
+    padding: 20px 50px;
+    border-radius: 20px;
+    background-color: #fafafa;
   }
-  .order {
-    position: absolute;
-    left: 15px;
-    margin-top: -83px;
-  }
-  svg{
-    width: 180px;
+  .logo svg {
+    width: 150px;
   }
 }
 

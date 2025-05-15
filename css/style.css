@@ -42,7 +42,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.toggle_menu-open{
+.toggle_menu-open {
   display: none;
 }
 
@@ -128,20 +128,24 @@ body {
   color: #999999;
 }
 .search {
-  width: 95vw;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .search .content {
+  flex: 1 1 15%;
   display: flex;
   gap: 20px;
 }
+.form-box {
+  flex: 1 1 60%;
+}
 .form {
-  width: 549px;
+  width: 100%;
   display: flex;
   align-items: center;
-  background-color: #fafafa;
 }
 .form .icon {
   position: absolute;
@@ -152,39 +156,37 @@ body {
 .form input {
   width: 469px;
   padding: 20px 50px;
-  color: #999999;
+  border-radius: 20px;
+  background-color: #fafafa;
   font-family: "yekan";
   font-size: 14px;
   font-weight: 300;
   word-spacing: 1px;
   outline: none;
   border: none;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
-.order{
-  background: hsla(38, 100%, 50%, 1);
-
-background: linear-gradient(135deg, hsla(38, 100%, 50%, 1) 0%, hsla(25, 100%, 54%, 1) 42%);
-
-background: -moz-linear-gradient(135deg, hsla(38, 100%, 50%, 1) 0%, hsla(25, 100%, 54%, 1) 42%);
-
-background: -webkit-linear-gradient(135deg, hsla(38, 100%, 50%, 1) 0%, hsla(25, 100%, 54%, 1) 42%);
-
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFA100", endColorstr="#FF7512", GradientType=1 );
-width: 151px;
-height: 66px;
-display: flex;
-flex-direction: row-reverse;
-justify-content: space-around;
-align-items: center;
-border-radius: 20px;
+.order {
+  background: linear-gradient(266.55deg, #ff7512 -7.24%, #ffa200 116.03%);
+  max-width: 151px;
+  height: 66px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex: 1 1 25%;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
 }
-.order .icon-order img{
+.order .icon-order img {
   width: 50px;
   height: 50px;
   border-radius: 10px;
   margin-top: 7px;
 }
-.order .title-order h2{
+.order .title-order h2 {
   width: 57px;
   font-size: 14px;
   font-weight: 600;
