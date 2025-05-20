@@ -170,7 +170,6 @@ button {
   border: none;
 }
 .order {
-.order {
   background: hsla(38, 100%, 50%, 1);
 
   background: linear-gradient(
@@ -225,13 +224,11 @@ button {
   cursor: pointer;
 }
 .order .icon-order img {
-.order .icon-order img {
   width: 50px;
   height: 50px;
   border-radius: 10px;
   margin-top: 7px;
 }
-.order .title-order h2 {
 .order .title-order h2 {
   width: 57px;
   font-size: 14px;
@@ -242,12 +239,13 @@ button {
 /* end style top header */
 
 /* start products section */
-.products-section {
+/* .products-section {
   padding: 10px;
-}
+} */
 .products-container {
   width: 100%;
   display: grid;
+  justify-content: center;
   overflow-x: auto;
   grid-template-columns: repeat(5, 303px);
   grid-template-rows: repeat(2, auto);
@@ -485,8 +483,12 @@ div.price-box > div:nth-child(1) > div {
   justify-content: space-between;
   gap: 20px;
 }
-.mySlides {display: none;}
-img {vertical-align: middle;}
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -515,8 +517,12 @@ img {vertical-align: middle;}
   animation-duration: 1.5s;
 }
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .pack-header {
   width: 386px;
