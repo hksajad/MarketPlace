@@ -11,6 +11,68 @@
   .form {
     width: 100%;
   }
+  .toggle-menu_product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f9933b;
+    width: 183px;
+    height: 56px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .toggle-menu_product h2 {
+    width: 67px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+  }
+  .toggle-menu_product .icons {
+    color: #fff;
+  }
+  .border-b {
+    border: none;
+  }
+  .menuProduct{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F0F8FF;
+    position: absolute;
+    height: 100vh;
+    width: 200px;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    overflow: hidden;
+    border-bottom-left-radius: 10rem;
+    gap: 40px;
+    z-index: 1000;
+  }
+  .menuProduct.show_menu-product{
+    width: 200px;
+    visibility: visible;
+  }
+  .close_toggle-menu{
+    display: block;
+    color: #353535;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 30px;
+  }
+  .header-content{
+    flex-direction: column;
+  }
+  .slider img{
+    width: 100%;
+  }
+  .pack-header{
+    width: 100%;
+  }
+  .scrool-item .item{
+    width: 350px;
+  }
+
 }
 @media screen and (max-width: 768px) {
   .top-header ul {
@@ -18,7 +80,7 @@
     flex-direction: column;
     left: 0;
     right: 0;
-    top: 5rem;
+    top: 4.5rem;
     background-color: #353535;
     border-radius: 10px;
     margin: 0 15px;
@@ -35,8 +97,12 @@
     gap: 25px;
     z-index: 1000;
   }
+  .top-header ul li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
   ul.show_menu {
-    height: 270px;
+    height: 325px;
     visibility: visible;
   }
   .toggle_menu-open {
@@ -87,8 +153,29 @@
   }
   .logo svg {
     width: 150px;
+    margin-top: -15px;
   }
-  
+  .pruduct-menu .produc-navbar {
+    flex-direction: column;
+    align-items: start;
+  }
+  .pruduct-menu .produc-navbar .user {
+    width: 100%;
+    margin-top: 10px;
+    justify-content: space-between;
+  }
+  .scrool-item .item{
+    width: 160px;
+  }
+  .swiper-slide .items{
+    width: 100%;
+  }
+  .swiper-slide .items{
+    font-size: 9px;
+    font-weight: bold;
+      height: 53px;
+      margin: 5px;
+  }
 }
 
 @media screen and (max-width: 576px) {
