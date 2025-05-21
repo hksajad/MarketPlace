@@ -1,12 +1,12 @@
 // start js navbar
 const menu = document.querySelector("ul");
 const toggle = document.querySelector(".toggle_menu-open");
+const toggle_close = document.querySelector(".toggle_menu-close");
 toggle.addEventListener("click", function () {
-  menu.classList.toggle("show_menu");
+  menu.classList.add("show_menu");
 });
-
-toggle.addEventListener("click", function () {
-  menu.classList.toggle("show_menu");
+toggle_close.addEventListener("click", function () {
+  menu.classList.remove("show_menu");
 });
 // start js menu product
 const menu_product = document.querySelector(".menuProduct");

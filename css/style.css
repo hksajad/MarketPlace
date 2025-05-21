@@ -49,7 +49,9 @@ button {
 .toggle_menu-open {
   display: none;
 }
-
+.toggle_menu-close{
+  display: none;
+}
 .top-header ul {
   display: flex;
   align-items: center;
