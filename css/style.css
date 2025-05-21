@@ -495,7 +495,7 @@ img {vertical-align: middle;}
 
 /* end slider off shop */
 /* start style scroocl item header */
-.scrool-item {
+.scroll-item {
   width: 100%;
   margin-top: 10px;
   display: flex;
@@ -504,44 +504,43 @@ img {vertical-align: middle;}
   flex-wrap: wrap;
   gap: 5px;
 }
-.scrool-item .item {
+.scroll-item .item {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 25px;
-  width: 300px;
+  width: 180px;
   height: 80px;
   border-radius: 24px;
   border: 1px solid #e7e7e7;
 }
 
-.scrool-item .item.active {
+.scroll-item .item.active {
   border: 1px solid #f9933b;
 }
-.scrool-item .item .img {
+.scroll-item .item .img {
   margin-left: 5px;
-  width: 50px;
-  height: 50px;
+  width:25px;
+  height: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.scrool-item .item .img.active {
-  background-color: #f9933b;
-  width: 50px;
-  height: 50px;
-
+.scrool-item .item .img img.active{
+  background: #f9933b;
+  width: 25px;
+  height: 25px;
   border-radius: 35px;
 }
 .scrool-item .item .caption {
   display: flex;
   flex-direction: column;
 }
-.scrool-item .item .caption h3 {
+.scroll-item .item .caption h3 {
   color: #666;
   font-size: 16px;
 }
-.scrool-item .item .caption span {
+.scroll-item .item .caption span {
   color: #999999;
   font-size: 14px;
   margin-top: 5px;
