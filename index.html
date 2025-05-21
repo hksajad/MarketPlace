@@ -400,7 +400,28 @@
         <div class="header-slider">
           <div class="header-content">
             <!-- Slideshow container -->
-            <div class="slideshow-container">
+  <div class="swiper main-swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+                <img src="./images/slider-img1.png" style="width: 100%" />
+      </div>
+      <div class="swiper-slide">
+                <img src="./images/slider-img1.png" style="width: 100%" />
+      </div>
+      <div class="swiper-slide">
+                <img src="./images/slider-img1.png" style="width: 100%" />
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="pagination-box">
+      <div class="swiper-main-pagination">
+      </div>
+    </div>
+  </div>
+
+
+            <!-- <div class="slideshow-container">
               <div class="mySlides fade">
                 <div class="numbertext">1 / 3</div>
                 <img src="./images/slider-img1.png" style="width: 100%" />
@@ -415,12 +436,8 @@
                 <div class="numbertext">3 / 3</div>
                 <img src="./images/slider-img1.png" style="width: 100%" />
               </div>
-            </div>
-            <div style="text-align: center">
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-            </div>
+              <div class="swiper-pagination"></div>
+            </div> -->
 
             <div class="pack-header">
               <!-- discounts  -->
@@ -593,7 +610,7 @@
       <!-- end header -->
              <!-- start products section-->
       <section class="products-section">
-        <div class="products-container container">
+        <div class="products-container">
           <div class="product-card">
             <img src="/images/p1.jpg" alt="product" />
             <div class="title-box">
@@ -1768,60 +1785,9 @@
     </main>
   </body>
   <script src="./js/all.min.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
   <script src="./js/script.js"></script>
-  <script src="./js/swiper-bundle.min.js"></script>
+  <script src="./js/slider.js"></script>
   <script>
-    var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 4,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-
-    var appendNumber = 4;
-    var prependNumber = 1;
-    document
-      .querySelector(".prepend-2-slides")
-      .addEventListener("click", function (e) {
-        e.preventDefault();
-        swiper.prependSlide([
-          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
-          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
-        ]);
-      });
-    document
-      .querySelector(".prepend-slide")
-      .addEventListener("click", function (e) {
-        e.preventDefault();
-        swiper.prependSlide(
-          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>"
-        );
-      });
-    document
-      .querySelector(".append-slide")
-      .addEventListener("click", function (e) {
-        e.preventDefault();
-        swiper.appendSlide(
-          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>"
-        );
-      });
-    document
-      .querySelector(".append-2-slides")
-      .addEventListener("click", function (e) {
-        e.preventDefault();
-        swiper.appendSlide([
-          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
-          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
-        ]);
-      });
   </script>
 </html>
