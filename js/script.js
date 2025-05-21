@@ -4,6 +4,10 @@ const toggle = document.querySelector(".toggle_menu-open");
 toggle.addEventListener("click", function () {
   menu.classList.toggle("show_menu");
 });
+
+toggle.addEventListener("click", function () {
+  menu.classList.toggle("show_menu");
+});
 // start js menu product
 const menu_product = document.querySelector(".menuProduct");
 const toggle_productopen = document.querySelector(".toggle-menu_product");

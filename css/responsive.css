@@ -2,6 +2,11 @@
 }
 
 @media screen and (max-width: 1400px) {
+  .products-container {
+    display: grid;
+    grid-template-columns: repeat(4, 303px) !important;
+    grid-template-rows: repeat(2, auto);
+  }
 }
 
 @media screen and (max-width: 1200px) {
