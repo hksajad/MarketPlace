@@ -74,7 +74,7 @@
   .pack-header {
     width: 100%;
   }
-  .scrool-item .item {
+  .scroll-item .item {
     width: 350px;
   }
   .img_icon-pack img{
@@ -176,11 +176,11 @@
     width: 150px;
     margin-top: -15px;
   }
-  .pruduct-menu .produc-navbar {
+  .product-menu .product-navbar {
     flex-direction: column;
     align-items: start;
   }
-  .pruduct-menu .produc-navbar .user {
+  .product-menu .product-navbar .user {
     width: 100%;
     margin-top: 10px;
     justify-content: space-between;
@@ -189,7 +189,7 @@
     width: 150px;
   }
  
-  .scrool-item .item {
+  .scroll-item .item {
     width: 160px;
   }
   .swiper-slide .items {
