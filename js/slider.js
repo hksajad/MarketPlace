@@ -12,13 +12,13 @@ var mainSwiper = new Swiper(".main-swiper", {
     clickable: true,
   },
   navigation: {
-    nextEl: ".swiper-main-button-next",
-    prevEl: ".swiper-main-button-prev",
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
 });
 
 var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 4,
+  slidesPerView: 6,
   autoplay: {
     delay: 2500,
     disableOnInteraction: false,
