@@ -223,6 +223,9 @@
     grid-template-rows: repeat(2, auto);
     justify-content: center;
   }
+  .products-container .product-card {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 576px) {
