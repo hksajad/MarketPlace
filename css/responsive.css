@@ -99,6 +99,12 @@
   .aboutUs .about .img-about img{
     width: 100%;
   }
+  .aboutUs .about .content-about{
+    width: 100%;
+  }
+  .progress-bar{
+    width: 100%;
+  }
 }
 @media screen and (max-width: 768px) {
   .top-header ul {
@@ -231,6 +237,22 @@
   }
   .products-container .product-card {
     width: 100%;
+  }
+  .aboutUs .about .content-about .title-about{
+    flex-direction: column;
+    align-items: start;
+  }
+  .aboutUs .about{
+    gap: 20px;
+  }
+  .aboutUs .about .content-about .caption p{
+    font-size: 16px;
+  }
+  .progress-bar .title-progress h3{
+   font-size: 27px;
+  }
+  .progress-bar .title-progress p{
+    font-size: 16px;
   }
 }
 

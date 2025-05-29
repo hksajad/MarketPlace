@@ -841,7 +841,6 @@ img {
 /* start style about us */
 .aboutUs {
   width: 100%;
-  height: 415px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -854,11 +853,9 @@ img {
 }
 .aboutUs .about .img-about img {
   width: 651px;
-  height: 415px;
 }
 .aboutUs .about .content-about {
   width: 849px;
-  height: 415px;
   display: flex;
   flex-direction: column;
 }
@@ -946,3 +943,36 @@ img {
   font-weight: 600;
 }
 /* end style about us */
+/* start style progress bar price */
+.progress-bar{
+  width: 1341px;
+  margin: 50px auto 0px;
+}
+.progress-bar .title-progress{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.progress-bar .title-progress span{
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(255, 201, 142, 1);
+}
+.progress-bar .title-progress h3{
+  font-weight: 700;
+  font-size: 32px;
+  color: rgba(232, 125, 8, 1);
+  margin-top: 5px;
+}
+.progress-bar .title-progress p span{
+  color: rgba(232, 125, 8, 1);
+}
+.progress-bar .title-progress p{
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 18px;
+  color: #4b4b4b;
+}
+/* end style progress bar price */
