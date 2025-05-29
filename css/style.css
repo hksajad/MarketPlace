@@ -838,3 +838,111 @@ img {
   );
   color: #da8207;
 }
+/* start style about us */
+.aboutUs {
+  width: 100%;
+  height: 415px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.aboutUs .about {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.aboutUs .about .img-about img {
+  width: 651px;
+  height: 415px;
+}
+.aboutUs .about .content-about {
+  width: 849px;
+  height: 415px;
+  display: flex;
+  flex-direction: column;
+}
+.aboutUs .about .content-about .title-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.aboutUs .about .content-about .title-about .introduction span {
+  color: rgba(255, 201, 142, 1);
+  font-size: 18px;
+  font-weight: 600;
+}
+.aboutUs .about .content-about .title-about .introduction h2 {
+  color: rgba(238, 115, 11, 1);
+  font-size: 32px;
+  font-weight: 700;
+}
+.aboutUs .about .content-about .title-about .project-about {
+  display: flex;
+  gap: 10px;
+}
+.aboutUs .about .content-about .title-about .project-about .avatar img {
+  width: 124px;
+}
+.aboutUs .about .content-about .title-about .project-about .text {
+  display: flex;
+  flex-direction: column;
+}
+.aboutUs .about .content-about .title-about .project-about .text h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: rgba(255, 117, 18, 1);
+}
+.aboutUs .about .content-about .title-about .project-about .text span {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(110, 110, 110, 1);
+}
+.aboutUs .about .content-about .caption {
+  margin-top: 15px;
+}
+.aboutUs .about .content-about .caption span {
+  color: rgba(255, 117, 18, 1);
+}
+.aboutUs .about .content-about .caption p {
+  color: #333;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: justify;
+}
+.aboutUs .about .content-about .link-about {
+  background: hsla(38, 100%, 50%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(38, 100%, 50%, 1) 0%,
+    hsla(25, 100%, 54%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(38, 100%, 50%, 1) 0%,
+    hsla(25, 100%, 54%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(38, 100%, 50%, 1) 0%,
+    hsla(25, 100%, 54%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFA100", endColorstr="#FF7512", GradientType=1 );
+  width: 248px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  border-radius: 12px;
+}
+.aboutUs .about .content-about .link-about a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+/* end style about us */

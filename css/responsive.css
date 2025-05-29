@@ -93,6 +93,12 @@
     grid-template-columns: repeat(2, 303px) !important;
     grid-template-rows: repeat(2, auto);
   }
+  .aboutUs .about{
+    flex-direction: column;
+  }
+  .aboutUs .about .img-about img{
+    width: 100%;
+  }
 }
 @media screen and (max-width: 768px) {
   .top-header ul {
