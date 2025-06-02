@@ -31,7 +31,7 @@ button {
 }
 
 /* start style main page */
-.main-page {
+.custom-width {
   max-width: 1600px;
   width: 95vw;
   margin: 0 auto;
@@ -838,11 +838,153 @@ img {
   );
   color: #da8207;
 }
+.products-section{
+  max-width: 1600px;
+  width: 95vw;
+  margin: 0 auto 20px;
+  overflow: hidden;
+}
+/* start style Example Work */
+.Example-Work {
+ background-image: url('../images/bg-work.png');
+ background-repeat: no-repeat;
+ width: 100%;
+ background-size: cover;
+ background-position: center;
+}
+
+.Example-Work .title-work{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 330px;
+  margin: 0 auto;
+  padding-top: 7rem;
+  
+}
+.Example-Work .title-work h3{
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
+.Example-Work .title-work span{
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+}
+.Example-Work .cart-work{
+  max-width: 1600px;
+  width: 85vw;
+  margin: 5rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.Example-Work .cart-work .item-work{
+  width: 350px;
+  height: 475px;
+  background-color: #fff;
+  box-shadow: 0px 4px 46.2px 0px #74747440;
+  border-radius: 20px;
+  padding: 10px;
+}
+.Example-Work .cart-work .item-work .title{
+  background: hsla(38, 100%, 50%, 1);
+  background: linear-gradient(
+    90deg,
+    hsla(38, 100%, 50%, 1) 0%,
+    hsla(25, 100%, 54%, 1) 100%);
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Example-Work .cart-work .item-work .title span{
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+}
+.Example-Work .cart-work .item-work .container-work{
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  direction: ltr;
+  padding-inline-end: 10px;
+  margin-top: 30px;
+  gap: 10px;
+}
+.container-work::-webkit-scrollbar {
+  width: 8px;
+}
+
+.container-work::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.container-work::-webkit-scrollbar-thumb {
+  background-color: #bbb;
+  border-radius: 15px;
+}
+.Example-Work .cart-work .item-work .container-work .content-work{
+  width: 100%;
+  height: 125px;
+  background-color: #dadada74;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 10px 10px;
+  gap: 10px;
+}
+.Example-Work .cart-work .item-work .container-work .content-work.active{
+  border: 1px solid #f9933b;
+}
+.Example-Work .cart-work .item-work .container-work .content-work .img img{
+  width: 100px;
+  height: 80px;
+}
+.Example-Work .cart-work .item-work .container-work .content-work .caption{
+  display: flex;
+  flex-direction: column;
+  direction: rtl;
+}
+.Example-Work .cart-work .item-work .container-work .content-work .caption h2{
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(51, 51, 51, 1);
+}
+.Example-Work .cart-work .item-work .container-work .content-work .caption span{
+  font-size: 14px;
+  font-weight: 300;
+  color: rgba(121, 121, 121, 1);
+}
+.Example-Work .cart-work .item-work .container-work .content-work .caption a{
+  margin-top: 10px;
+  background-color: rgb(223 218 218 / 51%)  ;
+  color: rgba(102, 102, 102, 1);
+  padding: 5px 10px;
+  width: fit-content;
+  border-radius: 12px;
+  font-size: 14px;
+}
+.Example-Work .cart-work .item-work .container-work .content-work .caption a.active{
+  background-color: #f9933b;
+  color: #fff;
+}
+/* end style Example Work */
 /* start style about us */
 .aboutUs {
-  width: 100%;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  max-width: 1600px;
+  width: 95vw;
+  margin: 50px auto;
 }
 .aboutUs .about {
   display: flex;

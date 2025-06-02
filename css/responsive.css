@@ -102,7 +102,12 @@
   .aboutUs .about .content-about{
     width: 100%;
   }
- 
+  .Example-Work .cart-work{
+    justify-content: center;
+  }
+  .Example-Work .cart-work .item-work{
+    width: 49%;
+  }
   
 }
 @media screen and (max-width: 768px) {
@@ -247,7 +252,10 @@
   .aboutUs .about .content-about .caption p{
     font-size: 16px;
   }
-  
+  .Example-Work .cart-work .item-work{
+    width: 100%;
+  }
+ 
 }
 
 @media screen and (max-width: 576px) {
