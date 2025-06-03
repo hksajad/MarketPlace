@@ -851,6 +851,7 @@ img {
  width: 100%;
  background-size: cover;
  background-position: center;
+ margin-top: 150px;
 }
 
 .Example-Work .title-work{
@@ -860,7 +861,7 @@ img {
   align-items: center;
   width: 330px;
   margin: 0 auto;
-  padding-top: 7rem;
+  padding-top: 2rem;
   
 }
 .Example-Work .title-work h3{
@@ -872,6 +873,7 @@ img {
   font-weight: 700;
   font-size: 32px;
   color: #fff;
+  margin-top: 10px;
 }
 .Example-Work .cart-work{
   max-width: 1600px;
@@ -984,7 +986,7 @@ img {
 .aboutUs {
   max-width: 1600px;
   width: 95vw;
-  margin: 50px auto;
+  margin: 150px auto;
 }
 .aboutUs .about {
   display: flex;
@@ -1047,6 +1049,7 @@ img {
   color: #333;
   font-size: 20px;
   font-weight: 400;
+  line-height: 36px;
   text-align: justify;
 }
 .aboutUs .about .content-about .link-about {
@@ -1085,3 +1088,205 @@ img {
   font-weight: 600;
 }
 /* end style about us */
+/*  start style Comments  */
+.comments{
+  width: 100%;
+  height: 500px;
+  background-image: url('../images/bg-comment.png');
+  background-position: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.comments .title-comment{
+  width: 1029px;
+  height: 5px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.comments .title-comment h3{
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(255, 201, 142, 1);
+}
+.comments .title-comment span{
+  font-size: 32px;
+  font-weight: 700;
+  color: rgba(238, 115, 11, 1);
+}
+.comments .title-comment p{
+  font-size: 18px;
+  font-weight: 700;
+  color: rgba(102, 102, 102, 1);
+  text-align: center;
+  line-height: 36px;
+  margin-top: 10px;
+}
+.comments .title-comment p span{
+  color: rgba(238, 115, 11, 1);
+  font-size: 18px;
+
+}
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  position: relative;
+  max-width: 90vw;
+  flex-wrap: nowrap;
+  margin: 11rem auto;
+}
+
+.side-image, .center-image {
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.6s ease;
+}
+
+.side-image {
+  width: 100px;
+  height: 100px;
+  opacity: 0.3;
+}
+
+.side-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.arrow {
+  background: white;
+  border: none;
+  width: 50px;
+  height: 45px;
+  border-radius: 100%;
+  font-size: 70px;
+  color: orange;
+  cursor: pointer;
+  z-index: 2;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.arrow:hover {
+  background: #fff8f0;
+}
+
+.center-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  position: relative;
+  width: 160px;
+  max-width: 100%;
+}
+
+.center-image {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.center-image.active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 0.6s ease;
+  z-index: 1;
+}
+
+.description {
+  font-size: 16px;
+  color: #fff;
+  width: 465px;
+  line-height: 1.7;
+  margin-top: 180px;
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+
+.description.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@media (max-width: 768px) {
+  .side-image {
+    display: none;
+  }
+
+  .arrow {
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+  }
+
+
+  
+
+  .description {
+    font-size: 14px;
+    max-width: 90vw;
+  }
+}
+
+@media (max-width: 480px) {
+ 
+  .slider-container {
+    flex-direction: row;
+    gap: 10px;
+  }
+}
+/*  end style Comments  */
+/* start style contact */
+.contact{
+  max-width: 1600px;
+  width: 95vw;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.contact .contact-form{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  gap: 20px;
+}
+.contact .contact-form .img-map img{
+  width: 650px;
+}
+.contact .contact-form .form{
+  width: 760px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.contact .contact-form .form .title{
+  width: 136px;
+  display: flex;
+  flex-direction: column;
+}
+.contact .contact-form .form .title span{
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(255, 201, 142, 1);
+}
+.contact .contact-form .form .title h3{
+  font-size: 32px;
+  font-weight: 700;
+  color: rgba(238, 115, 11, 1);
+}
+
+
+/* end style contact */

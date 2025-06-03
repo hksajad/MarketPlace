@@ -108,7 +108,23 @@
   .Example-Work .cart-work .item-work{
     width: 49%;
   }
-  
+  .comments .title-comment{
+    width: 100%;
+  }
+  .comments .title-comment p{
+    padding: 0 20px;
+    font-size: 14px;
+  }
+  .slider-container{
+    gap: 50px;
+  }
+  .contact .contact-form{
+    gap: 20px;
+  }
+  .contact .contact-form .img-map img{
+    width: 330px;
+    height: 225px;
+  }
 }
 @media screen and (max-width: 768px) {
   .top-header ul {
@@ -242,6 +258,9 @@
   .products-container .product-card {
     width: 100%;
   }
+  .aboutUs,.Example-Work{
+    margin-top: 0;
+  }
   .aboutUs .about .content-about .title-about{
     flex-direction: column;
     align-items: start;
@@ -255,7 +274,18 @@
   .Example-Work .cart-work .item-work{
     width: 100%;
   }
- 
+  .comments{
+    margin-bottom: 50px;
+  }
+  .contact .contact-form{
+    flex-direction: column;
+  }
+  .contact .contact-form .img-map img{
+    width: 100%;
+  }
+  .contact .contact-form .form{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 576px) {
