@@ -1273,7 +1273,7 @@ img {
   gap: 20px;
 }
 .contact .contact-form .img-map img {
-  width: 650px;
+  width: 760px;
 }
 .contact .contact-form .form {
   width: 760px;
@@ -1296,5 +1296,115 @@ img {
   font-weight: 700;
   color: rgba(238, 115, 11, 1);
 }
+.contact .contact-form .form .individual{
+  width: 100%;
+  height: 100px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.contact .contact-form .form .individual .input-name{
+  width: 50%;
+  height: 100px;
+}
+.contact .contact-form .form .individual .input-name span,.contact .contact-form .form .individual .input-number span,.contact .contact-form .form .request span{
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(153, 153, 153, 1);
+}
 
+.contact .contact-form .form .individual .input-name input{
+  width: 100%;
+  margin-top: 10px;
+  background-color: rgb(245, 245, 245);
+  border: 1px solid rgba(255, 137, 9, 1);
+  font-size: 16px;
+  color: rgba(51, 51, 51, 1);
+  font-weight: bold;
+  padding: 18px 20px
+}
+.contact .contact-form .form .individual .input-number{
+  width: 50%;
+  height: 100px;
+}
+.contact .contact-form .form .individual .input-number input{
+  width: 100%;
+  margin-top: 10px;
+  padding: 18px 20px;
+  background-color: rgb(245, 245, 245);
+  direction: ltr;
+  text-align: end;
+}
+.contact .contact-form .form .request{
+  width: 100%;
+  height: 100px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.contact .contact-form .form .request select{
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  font-family: "yekan";
+  border: none;
+  background-color: rgb(245, 245, 245);
+}
+.contact .contact-form .form .address{
+  width: 100%;
+  height: 100px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact .contact-form .form .address .content{
+  display: flex;
+  flex-direction: column;
+}
+.contact .contact-form .form .address .content h5{
+  color: rgba(255, 117, 18, 1);
+  font-size: 16px;
+  font-weight: 600;
+}
+.contact .contact-form .form .address .content span{
+  color: rgba(153, 153, 153, 1);
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 7px;
+}
+.contact .contact-form .form .address a{
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  width: 190px;
+  height: 65px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsla(38, 100%, 50%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(38, 100%, 50%, 1) 0%,
+    hsla(25, 100%, 54%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(38, 100%, 50%, 1) 0%,
+    hsla(25, 100%, 54%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(38, 100%, 50%, 1) 0%,
+    hsla(25, 100%, 54%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFA100", endColorstr="#FF7512", GradientType=1 );
+}
 /* end style contact */

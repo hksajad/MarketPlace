@@ -291,6 +291,17 @@
   .contact .contact-form .form{
     width: 100%;
   }
+  .contact .contact-form .form .address{
+    flex-direction: column-reverse;
+    align-items: start;
+    width: 100%;
+  }
+  .contact .contact-form .form .address .content{
+    width: 100%;
+  }
+  .contact .contact-form .form .address a{
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 576px) {
