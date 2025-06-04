@@ -295,8 +295,9 @@
     padding-bottom: 0;
   }
   button{
-    width: 50px;
-    height: 32px;
+    background-color: transparent;
+    color: #fff;
+  font-size: 70px;
   }
   .contact .contact-form{
     flex-direction: column;

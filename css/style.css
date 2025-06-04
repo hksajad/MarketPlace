@@ -1224,6 +1224,7 @@ button {
   margin-top: 180px;
   transition: all 0.5s ease;
   opacity: 0;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
