@@ -852,6 +852,7 @@ img {
   background-size: cover;
   background-position: center;
   margin-top: 150px;
+  overflow-x: hidden;
 }
 
 .Example-Work .title-work {
@@ -877,6 +878,7 @@ img {
 .Example-Work .cart-work {
   max-width: 1600px;
   width: 85vw;
+  overflow-x: hidden;
   margin: 5rem auto;
   display: flex;
   justify-content: space-between;
