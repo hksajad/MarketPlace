@@ -108,10 +108,10 @@
   .Example-Work .cart-work .item-work{
     width: 49%;
   }
-  .comments .title-comment{
+  .comment .title-comment{
     width: 100%;
   }
-  .comments .title-comment p{
+  .comment .title-comment p{
     padding: 0 20px;
     font-size: 14px;
   }
@@ -258,6 +258,10 @@
   .products-container .product-card {
     width: 100%;
   }
+  .aboutUs {
+   
+    margin: 50px auto;
+  }
   .aboutUs,.Example-Work{
     margin-top: 0;
   }
@@ -274,7 +278,7 @@
   .Example-Work .title-work{
     width: 100%;
   }
-  .Example-Work .title-work span {
+  .Example-Work .title-work span,.comment .title-comment span {
     font-size: 23px;
   }
   .Example-Work .cart-work .item-work{
@@ -287,7 +291,13 @@
     width: 100%;
     overflow-x: hidden;
   }
-
+  .description{
+    padding-bottom: 0;
+  }
+  button{
+    width: 50px;
+    height: 32px;
+  }
   .contact .contact-form{
     flex-direction: column;
   }
