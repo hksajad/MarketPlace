@@ -271,6 +271,12 @@
   .aboutUs .about .content-about .caption p{
     font-size: 16px;
   }
+  .Example-Work .title-work{
+    width: 100%;
+  }
+  .Example-Work .title-work span {
+    font-size: 14px;
+  }
   .Example-Work .cart-work .item-work{
     width: 100%;
   }
