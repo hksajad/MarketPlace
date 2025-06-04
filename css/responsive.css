@@ -277,6 +277,11 @@
   .comments{
     margin-bottom: 50px;
   }
+  .slider-container{
+    width: 100%;
+    overflow-x: hidden;
+  }
+
   .contact .contact-form{
     flex-direction: column;
   }
