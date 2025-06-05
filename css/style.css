@@ -845,7 +845,7 @@ img {
   overflow: hidden;
 }
 /* start style Example Work */
-.Example-Work {
+.example-Work {
   background-image: url("../images/bg-work.png");
   background-repeat: no-repeat;
   width: 100%;
@@ -855,7 +855,7 @@ img {
   overflow-x: hidden;
 }
 
-.Example-Work .title-work {
+.example-Work .title-work {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -864,18 +864,18 @@ img {
   margin: 0 auto;
   padding-top: 2rem;
 }
-.Example-Work .title-work h3 {
+.example-Work .title-work h3 {
   font-weight: 600;
   font-size: 18px;
   color: #fff;
 }
-.Example-Work .title-work span {
+.example-Work .title-work span {
   font-weight: 700;
   font-size: 32px;
   color: #fff;
   margin-top: 10px;
 }
-.Example-Work .cart-work {
+.example-Work .cart-work {
   max-width: 1600px;
   width: 85vw;
   overflow-x: hidden;
@@ -886,7 +886,7 @@ img {
   flex-wrap: wrap;
   gap: 10px;
 }
-.Example-Work .cart-work .item-work {
+.example-Work .cart-work .item-work {
   width: 350px;
   height: 475px;
   background-color: #fff;
@@ -894,7 +894,7 @@ img {
   border-radius: 20px;
   padding: 10px;
 }
-.Example-Work .cart-work .item-work .title {
+.example-Work .cart-work .item-work .title {
   background: hsla(38, 100%, 50%, 1);
   background: linear-gradient(
     90deg,
@@ -909,12 +909,12 @@ img {
   justify-content: center;
   align-items: center;
 }
-.Example-Work .cart-work .item-work .title span {
+.example-Work .cart-work .item-work .title span {
   font-size: 18px;
   font-weight: 600;
   color: rgba(255, 255, 255, 1);
 }
-.Example-Work .cart-work .item-work .container-work {
+.example-Work .cart-work .item-work .container-work {
   width: 100%;
   height: 350px;
   display: flex;
@@ -937,7 +937,7 @@ img {
   background-color: #bbb;
   border-radius: 15px;
 }
-.Example-Work .cart-work .item-work .container-work .content-work {
+.example-Work .cart-work .item-work .container-work .content-work {
   width: 100%;
   height: 125px;
   background-color: #dadada74;
@@ -948,24 +948,24 @@ img {
   padding: 10px 10px;
   gap: 10px;
 }
-.Example-Work .cart-work .item-work .container-work .content-work.active {
+.example-Work .cart-work .item-work .container-work .content-work.active {
   border: 1px solid #f9933b;
 }
-.Example-Work .cart-work .item-work .container-work .content-work .img img {
+.example-Work .cart-work .item-work .container-work .content-work .img img {
   width: 100px;
   height: 80px;
 }
-.Example-Work .cart-work .item-work .container-work .content-work .caption {
+.example-Work .cart-work .item-work .container-work .content-work .caption {
   display: flex;
   flex-direction: column;
   direction: rtl;
 }
-.Example-Work .cart-work .item-work .container-work .content-work .caption h2 {
+.example-Work .cart-work .item-work .container-work .content-work .caption h2 {
   font-size: 13px;
   font-weight: 600;
   color: rgba(51, 51, 51, 1);
 }
-.Example-Work
+.example-Work
   .cart-work
   .item-work
   .container-work
@@ -976,7 +976,7 @@ img {
   font-weight: 300;
   color: rgba(121, 121, 121, 1);
 }
-.Example-Work .cart-work .item-work .container-work .content-work .caption a {
+.example-Work .cart-work .item-work .container-work .content-work .caption a {
   margin-top: 10px;
   background-color: rgb(223 218 218 / 51%);
   color: rgba(102, 102, 102, 1);
@@ -985,7 +985,7 @@ img {
   border-radius: 12px;
   font-size: 14px;
 }
-.Example-Work
+.example-Work
   .cart-work
   .item-work
   .container-work
@@ -997,76 +997,76 @@ img {
 }
 /* end style Example Work */
 /* start style about us */
-.aboutUs {
+.about-Us {
   max-width: 1600px;
   width: 95vw;
   margin: 150px auto;
 }
-.aboutUs .about {
+.about-Us .about {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
   gap: 50px;
 }
-.aboutUs .about .img-about img {
+.about-Us .about .img-about img {
   width: 651px;
 }
-.aboutUs .about .content-about {
+.about-Us .about .content-about {
   width: 849px;
   display: flex;
   flex-direction: column;
 }
-.aboutUs .about .content-about .title-about {
+.about-Us .about .content-about .title-about {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.aboutUs .about .content-about .title-about .introduction span {
+.about-Us .about .content-about .title-about .introduction span {
   color: rgba(255, 201, 142, 1);
   font-size: 18px;
   font-weight: 600;
 }
-.aboutUs .about .content-about .title-about .introduction h2 {
+.about-Us .about .content-about .title-about .introduction h2 {
   color: rgba(238, 115, 11, 1);
   font-size: 32px;
   font-weight: 700;
 }
-.aboutUs .about .content-about .title-about .project-about {
+.about-Us .about .content-about .title-about .project-about {
   display: flex;
   gap: 10px;
 }
-.aboutUs .about .content-about .title-about .project-about .avatar img {
+.about-Us .about .content-about .title-about .project-about .avatar img {
   width: 124px;
 }
-.aboutUs .about .content-about .title-about .project-about .text {
+.about-Us .about .content-about .title-about .project-about .text {
   display: flex;
   flex-direction: column;
 }
-.aboutUs .about .content-about .title-about .project-about .text h3 {
+.about-Us .about .content-about .title-about .project-about .text h3 {
   font-size: 24px;
   font-weight: 600;
   color: rgba(255, 117, 18, 1);
 }
-.aboutUs .about .content-about .title-about .project-about .text span {
+.about-Us .about .content-about .title-about .project-about .text span {
   font-size: 16px;
   font-weight: 400;
   color: rgba(110, 110, 110, 1);
 }
-.aboutUs .about .content-about .caption {
+.about-Us .about .content-about .caption {
   margin-top: 15px;
 }
-.aboutUs .about .content-about .caption span {
+.about-Us .about .content-about .caption span {
   color: rgba(255, 117, 18, 1);
 }
-.aboutUs .about .content-about .caption p {
+.about-Us .about .content-about .caption p {
   color: #333;
   font-size: 20px;
   font-weight: 400;
   line-height: 36px;
   text-align: justify;
 }
-.aboutUs .about .content-about .link-about {
+.about-Us .about .content-about .link-about {
   background: hsla(38, 100%, 50%, 1);
 
   background: linear-gradient(
@@ -1096,7 +1096,7 @@ img {
   margin-top: 50px;
   border-radius: 12px;
 }
-.aboutUs .about .content-about .link-about a {
+.about-Us .about .content-about .link-about a {
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -1128,6 +1128,7 @@ img {
   font-size: 32px;
   font-weight: 700;
   color: rgba(238, 115, 11, 1);
+  margin-top: 15px;
 }
 .comment .title-comment p {
   font-size: 18px;
@@ -1402,3 +1403,12 @@ button {
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFA100", endColorstr="#FF7512", GradientType=1 );
 }
 /* end style contact */
+/* start style blog */
+.blog{
+  width: 100%;
+  height: 500px;
+  background-color: rgba(255, 248, 238, 1);
+  margin-top: 150px;
+}
+
+/* end style blog */

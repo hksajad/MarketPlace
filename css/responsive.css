@@ -93,19 +93,19 @@
     grid-template-columns: repeat(2, 303px) !important;
     grid-template-rows: repeat(2, auto);
   }
-  .aboutUs .about{
+  .about-Us .about{
     flex-direction: column;
   }
-  .aboutUs .about .img-about img{
+  .about-Us .about .img-about img{
     width: 100%;
   }
-  .aboutUs .about .content-about{
+  .about-Us .about .content-about{
     width: 100%;
   }
-  .Example-Work .cart-work{
+  .example-Work .cart-work{
     justify-content: center;
   }
-  .Example-Work .cart-work .item-work{
+  .example-Work .cart-work .item-work{
     width: 49%;
   }
   .comment .title-comment{
@@ -262,26 +262,26 @@
    
     margin: 50px auto;
   }
-  .aboutUs,.Example-Work{
+  .about-Us,.Example-Work{
     margin-top: 0;
   }
-  .aboutUs .about .content-about .title-about{
+  .about-Us .about .content-about .title-about{
     flex-direction: column;
     align-items: start;
   }
-  .aboutUs .about{
+  .about-Us .about{
     gap: 20px;
   }
-  .aboutUs .about .content-about .caption p{
+  .about-Us .about .content-about .caption p{
     font-size: 16px;
   }
-  .Example-Work .title-work{
+  .example-Work .title-work{
     width: 100%;
   }
-  .Example-Work .title-work span,.comment .title-comment span {
+  .example-Work .title-work span,.comment .title-comment span {
     font-size: 23px;
   }
-  .Example-Work .cart-work .item-work{
+  .example-Work .cart-work .item-work{
     width: 100%;
   }
   .comments{
@@ -319,9 +319,16 @@
   .contact .contact-form .form .address a{
     margin-top: 20px;
   }
+  .contact .contact-form .form .title{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 576px) {
+  .contact .contact-form .form .individual .input-number input, .contact .contact-form .form .individual .input-name input{
+    padding: 18px 10px;
+    font-size: 12px;
+  }
 }
 @media screen and (max-width: 460px) {
 }
