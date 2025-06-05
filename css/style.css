@@ -1406,9 +1406,116 @@ button {
 /* start style blog */
 .blog{
   width: 100%;
-  height: 500px;
   background-color: rgba(255, 248, 238, 1);
   margin-top: 150px;
 }
 
+.blog  .title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 40px;
+}
+.blog  .title .heading{
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+}
+.blog  .title .heading span{
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(255, 201, 142, 1);
+}
+.blog  .title .heading h4{
+  font-size: 32px;
+  font-weight: 700;
+  color: rgba(238, 115, 11, 1);
+}
+.blog .buttons-blog {
+  display: flex;
+  gap: 10px;
+}
+
+.swiper-button-next-blog,
+.swiper-button-prev-blog {
+  position: static !important;
+  margin: 0;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: #f9933b;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.swiper-button-prev-blog{
+  background-color: #f9933b;
+  color: #fff;
+}
+.mySwiper-blog{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.mySwiper-blog .swiper-wrapper{
+  gap: 10px;
+}
+.mySwiper-blog .swiper-slide {
+  background: #fff;
+  border-radius: 20px;
+  width: 331px;
+  height: 446px;
+  text-align: center;
+  padding: 30px;
+  font-size: 18px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.mySwiper-blog .swiper-slide .title-blog{
+  margin-top: 20px;
+}
+.mySwiper-blog .swiper-slide .title-blog h3{
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(108, 108, 108, 1);
+}
+.mySwiper-blog .swiper-slide .title-blog h3.active{
+  color: rgba(255, 122, 16, 1);
+}
+.mySwiper-blog .swiper-slide .caption-blog p{
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgba(134, 142, 150, 1);
+  margin-top: 10px;
+}
+.mySwiper-blog .swiper-slide .bottom-content{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 55px;
+}
+.mySwiper-blog .swiper-slide .bottom-content .date span{
+  color: rgba(153, 153, 153, 1);
+  font-weight: 400;
+  font-size: 14px;
+}
+.mySwiper-blog .swiper-slide .bottom-content .border-left{
+  color: rgba(153, 153, 153, 1);
+}
+.mySwiper-blog .swiper-slide .bottom-content .author h6{
+  color: rgba(51, 51, 51, 1);
+  font-weight: 400;
+  font-size: 14px;
+}
+.mySwiper-blog .swiper-slide .bottom-content .author h6 span{
+  color: rgba(153, 153, 153, 1);
+}
 /* end style blog */

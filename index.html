@@ -2034,7 +2034,135 @@
       <!-- end contact -->
       <!-- start blog -->
       <div class="blog">
-       
+        <div class="custom-width">
+          <div class="title">
+            <div class="heading">
+              <span>- مطالب</span>
+              <h4>بلاگ و اخبار دنیای گرافیک</h4>
+            </div>
+            <div class="buttons-blog">
+              <div class="swiper-button-prev-blog active">
+                <img src="./images/Alt Arrow Right.png" alt="" />
+              </div>
+              <div class="swiper-button-next-blog">
+                <img src="./images/Alt Arrow Left.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <!-- slider blog -->
+          <div class="swiper mySwiper-blog">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="img-blog">
+                  <img src="./images/blog-img1.png" alt="blog-img" />
+                </div>
+                <div class="title-blog">
+                  <h3 class="active">- مزایای استفاده از مارکت پلیس</h3>
+                </div>
+                <div class="caption-blog">
+                  <p>
+                    بیلبورد همچنان یکی از رسانه‌های دلخواه و مورد توجه
+                    برند‌هاست. البته برندهایی جذب این رسانه می‌شوند که به اندازه
+                    کافی توانمندی مالی داشته باشند. دلیل این‌همه اشتیاق به
+                    بیلبوردها این است که بینندگان فراوان دارد. از طرف دیگر، در
+                    یک بیلبورد همه چیز هست: عظمت، شکوه و جایگاه ویژه.
+                  </p>
+                </div>
+                <div class="bottom-content">
+                  <div class="date"><span>1403/08/20</span></div>
+                  <div class="border-left">|</div>
+                  <div class="author">
+                    <h6><span>نویسنده :</span> صادق سعدی</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img-blog">
+                  <img src="./images/blog-img2.png" alt="blog-img" />
+                </div>
+                <div class="title-blog">
+                  <h3>طراحی دیجیتال و نکات آن</h3>
+                </div>
+                <div class="caption-blog">
+                  <p>
+                    استفاده از مارکت پلیس در فروش فایل به دلیل تنوع و گوناگونی
+                    .....
+                  </p>
+                </div>
+                <div class="bottom-content">
+                  <div class="date"><span>1403/08/20</span></div>
+                  <div class="border-left">|</div>
+                  <div class="author">
+                    <h6><span>نویسنده :</span> صادق سعدی</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img-blog">
+                  <img src="./images/blog-img3.png" alt="blog-img" />
+                </div>
+                <div class="title-blog">
+                  <h3>نرم‌افزار طراحی منو کافه</h3>
+                </div>
+                <div class="caption-blog">
+                  <p>
+                    استفاده از مارکت پلیس در فروش فایل به دلیل تنوع و گوناگونی
+                    .....
+                  </p>
+                </div>
+                <div class="bottom-content">
+                  <div class="date"><span>1403/08/20</span></div>
+                  <div class="border-left">|</div>
+                  <div class="author">
+                    <h6><span>نویسنده :</span> صادق سعدی</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img-blog">
+                  <img src="./images/blog-img4.png" alt="blog-img" />
+                </div>
+                <div class="title-blog">
+                  <h3>آموزش انتخاب رنگ مناسب چاپ</h3>
+                </div>
+                <div class="caption-blog">
+                  <p>
+                    استفاده از مارکت پلیس در فروش فایل به دلیل تنوع و گوناگونی
+                    .....
+                  </p>
+                </div>
+                <div class="bottom-content">
+                  <div class="date"><span>1403/08/20</span></div>
+                  <div class="border-left">|</div>
+                  <div class="author">
+                    <h6><span>نویسنده :</span> صادق سعدی</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img-blog">
+                  <img src="./images/blog-img2.png" alt="blog-img" />
+                </div>
+                <div class="title-blog">
+                  <h3>خلاقیت بدون مرز </h3>
+                </div>
+                <div class="caption-blog">
+                  <p>
+                    استفاده از مارکت پلیس در فروش فایل به دلیل تنوع و گوناگونی
+                    .....
+                  </p>
+                </div>
+                <div class="bottom-content">
+                  <div class="date"><span>1403/08/20</span></div>
+                  <div class="border-left">|</div>
+                  <div class="author">
+                    <h6><span>نویسنده :</span> صادق سعدی</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- end blog -->
     </main>
@@ -2044,4 +2172,33 @@
   <script src="./js/script.js"></script>
   <script src="./js/slider.js"></script>
   <script src="./js/slider-comments.js"></script>
+
+  <script>
+    new Swiper(".mySwiper-blog", {
+      slidesPerView: 4,
+      slidesPerGroup: 4,
+      spaceBetween: 0,
+      loop: true,
+      loopFillGroupWithBlank: false,
+      centeredSlides: false,
+      navigation: {
+        nextEl: ".swiper-button-next-blog",
+        prevEl: ".swiper-button-prev-blog",
+      },
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+          slidesPerGroup: 1,
+        },
+        640: {
+          slidesPerView: 2,
+          slidesPerGroup: 2,
+        },
+        1024: {
+          slidesPerView: 4,
+          slidesPerGroup: 1,
+        },
+      },
+    });
+  </script>
 </html>

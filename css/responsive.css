@@ -322,12 +322,34 @@
   .contact .contact-form .form .title{
     width: 100%;
   }
+  .blog  .title .heading{
+    width: 100%;
+  }
+  .blog  .title .heading h4{
+    font-size: 18px;
+  }
+  .mySwiper-blog .swiper-wrapper{
+    gap: 0px;
+  }
+  .mySwiper-blog .swiper-slide{
+    width: 100%;
+  }
+  .slider-header-blog {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .mySwiper-blog .swiper-slide .img-blog img{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 576px) {
   .contact .contact-form .form .individual .input-number input, .contact .contact-form .form .individual .input-name input{
     padding: 18px 10px;
     font-size: 12px;
+  }
+  .blog  .title .heading h4{
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 460px) {
