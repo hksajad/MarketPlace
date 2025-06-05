@@ -66,7 +66,6 @@ const data = [
     updateSlider();
   }
 
-  // Initial load
   window.onload = () => {
     document.getElementById("center-img-1").querySelector("img").src =
       data[current].img;

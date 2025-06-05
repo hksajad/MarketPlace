@@ -1431,6 +1431,7 @@ button {
   font-size: 32px;
   font-weight: 700;
   color: rgba(238, 115, 11, 1);
+  margin-top: 10px;
 }
 .blog .buttons-blog {
   display: flex;
@@ -1519,3 +1520,103 @@ button {
   color: rgba(153, 153, 153, 1);
 }
 /* end style blog */
+/* start style customer reviews */
+.customer-reviews{
+  width: 100%;
+  margin-top: 150px;
+}
+.customer-reviews  .title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 40px;
+}
+.customer-reviews  .title .heading{
+  width: 443px;
+  display: flex;
+  flex-direction: column;
+}
+.customer-reviews  .title .heading span{
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(255, 201, 142, 1);
+}
+.customer-reviews  .title .heading h4{
+  font-size: 32px;
+  font-weight: 700;
+  color: rgba(238, 115, 11, 1);
+  margin-top: 10px;
+}
+.customer-reviews .buttons-blog {
+  display: flex;
+  gap: 10px;
+}
+.swiper-button-next-customer_reviews,
+.swiper-button-prev-customer_reviews {
+  position: static !important;
+  margin: 0;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: #f9933b;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.swiper-button-prev-customer_reviews{
+  background-color: #f9933b;
+  color: #fff;
+}
+.mySwiper-customer_reviews{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.mySwiper-customer_reviews .swiper-wrapper{
+  gap: 10px;
+}
+.mySwiper-customer_reviews .swiper-slide {
+  background: rgba(240, 239, 239, 0.461);
+  border-radius: 20px;
+  width: 300px;
+  height: 224px;
+  text-align: center;
+  padding: 30px;
+  font-size: 18px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+.mySwiper-customer_reviews .swiper-slide .caption-customer_reviews p{
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(51, 51, 51, 1);
+}
+.mySwiper-customer_reviews .swiper-slide .user-customer_reviews{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.mySwiper-customer_reviews .swiper-slide .user-customer_reviews .content-user{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: start;
+}
+.mySwiper-customer_reviews .swiper-slide .user-customer_reviews .content-user h5{
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(17, 17, 17, 1);
+}
+.mySwiper-customer_reviews .swiper-slide .user-customer_reviews .content-user span{
+  font-size: 14px;
+  font-weight: 300;
+  color: rgba(112, 119, 134, 1);
+}
+/* end style customer reviews */
