@@ -1,20 +1,9 @@
 @media (min-width: 1400px) {
 }
 @media screen and (max-width: 1640px) {
-  .products-container {
-    display: grid;
-    grid-template-columns: repeat(4, 303px);
-    grid-template-rows: repeat(2, auto);
-    justify-content: space-between;
-  }
 }
 
 @media screen and (max-width: 1400px) {
-  .products-container {
-    display: grid;
-    grid-template-columns: repeat(3, 303px) !important;
-    grid-template-rows: repeat(2, auto);
-  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -88,40 +77,35 @@
   .img_icon-pack img {
     width: 100%;
   }
-  .products-container {
-    display: grid;
-    grid-template-columns: repeat(2, 303px) !important;
-    grid-template-rows: repeat(2, auto);
-  }
-  .aboutUs .about{
+  .aboutUs .about {
     flex-direction: column;
   }
-  .aboutUs .about .img-about img{
+  .aboutUs .about .img-about img {
     width: 100%;
   }
-  .aboutUs .about .content-about{
+  .aboutUs .about .content-about {
     width: 100%;
   }
-  .Example-Work .cart-work{
+  .Example-Work .cart-work {
     justify-content: center;
   }
-  .Example-Work .cart-work .item-work{
+  .Example-Work .cart-work .item-work {
     width: 49%;
   }
-  .comment .title-comment{
+  .comment .title-comment {
     width: 100%;
   }
-  .comment .title-comment p{
+  .comment .title-comment p {
     padding: 0 20px;
     font-size: 14px;
   }
-  .slider-container{
+  .slider-container {
     gap: 50px;
   }
-  .contact .contact-form{
+  .contact .contact-form {
     gap: 20px;
   }
-  .contact .contact-form .img-map img{
+  .contact .contact-form .img-map img {
     width: 330px;
     height: 225px;
   }
@@ -249,74 +233,66 @@
   .swiper-button-prev {
     padding-top: 15px;
   }
-  .products-container {
-    display: grid;
-    grid-template-columns: repeat(1, 303px) !important;
-    grid-template-rows: repeat(2, auto);
-    justify-content: center;
-  }
-  .products-container .product-card {
-    width: 100%;
-  }
   .aboutUs {
-   
     margin: 50px auto;
   }
-  .aboutUs,.Example-Work{
+  .aboutUs,
+  .Example-Work {
     margin-top: 0;
   }
-  .aboutUs .about .content-about .title-about{
+  .aboutUs .about .content-about .title-about {
     flex-direction: column;
     align-items: start;
   }
-  .aboutUs .about{
+  .aboutUs .about {
     gap: 20px;
   }
-  .aboutUs .about .content-about .caption p{
+  .aboutUs .about .content-about .caption p {
     font-size: 16px;
   }
-  .Example-Work .title-work{
+  .Example-Work .title-work {
     width: 100%;
   }
-  .Example-Work .title-work span,.comment .title-comment span {
+  .Example-Work .title-work span,
+  .comment .title-comment span {
     font-size: 23px;
   }
-  .Example-Work .cart-work .item-work{
+  .Example-Work .cart-work .item-work {
     width: 100%;
   }
-  .comments{
+  .comments {
     margin-bottom: 50px;
   }
-  .slider-container{
+  .slider-container {
     width: 100%;
     overflow-x: hidden;
   }
-  .description{
+  .description {
     padding-bottom: 0;
   }
-  button{
+  button {
     background-color: transparent;
     color: #fff;
-  font-size: 70px;
+    font-size: 70px;
   }
-  .contact .contact-form{
+  .contact .contact-form {
     flex-direction: column;
   }
-  .contact .contact-form .img-map img{
+  .contact .contact-form .img-map img {
     width: 100%;
   }
-  .contact .contact-form .form{
+  .contact .contact-form .form {
     width: 100%;
   }
-  .contact .contact-form .form .address{
+  .contact .contact-form .form .address {
     flex-direction: column-reverse;
     align-items: start;
     width: 100%;
   }
-  .contact .contact-form .form .address .content{
+  .contact .contact-form .form .address .content {
     width: 100%;
   }
-  .contact .contact-form .form .address a{
+  .contact .contact-form .form .address a {
     margin-top: 20px;
   }
 }
