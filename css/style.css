@@ -532,6 +532,7 @@ img {
 }
 .main-swiper .swiper-slide img {
   image-rendering: optimizeSpeed;
+  height: 536px;
 }
 .main-swiper .swiper-button-prev {
   z-index: 99999;
@@ -655,7 +656,6 @@ img {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-bottom: 1px solid #9999;
 }
 .titr .item-feature {
   display: flex;
@@ -678,110 +678,123 @@ img {
   height: 30px;
   background-color: #99999931;
 }
-.pack-header .shopping-feature {
+.border-bottom {
   width: 100%;
-  margin-top: 20px;
+  height: 2px;
+  background-color: #99999931;
+  margin-top: 15px;
+
+}
+.price-pack {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  margin-top: 15px;
+  
 }
-.pack-header .shopping-feature .img {
-  background-color: #f9933b;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.price-pack .icon-shopping img {
   width: 56px;
   height: 56px;
+  background-color: rgba(255, 117, 18, 1);
   border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.pack-header .shopping-feature .price {
+.price-pack .price-discount {
   display: flex;
   flex-direction: column;
+  width: 109px;
   align-items: end;
 }
-.pack-header .shopping-feature .price .price-off {
-  display: flex;
-  gap: 7px;
-  align-items: center;
+.price-pack .price-discount .discount{
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
-.pack-header .shopping-feature .price .price-off h6 {
-  font-size: 20px;
-  font-weight: 400;
-  color: #999999;
-  text-decoration-line: line-through;
+.price-pack .price-discount .discount h6{
+    text-decoration: line-through;
+    font-size: 16px;
+    color: rgba(153, 153, 153, 1);
+    padding-top: 5px;
 }
-.pack-header .shopping-feature .price .price-off span {
-  background-color: #f9933b;
-  color: #fff;
-  width: 49px;
-  height: 26px;
-  border-radius: 66px;
-  text-align: center;
+.price-pack .price-discount .discount span{
+    background-color: rgba(241, 119, 44, 1);
+    color: #fff;
+    font-size: 18px;
+    padding: 0 7px;
+    border-radius: 66px;
 }
-.pack-header .shopping-feature .price h5 {
-  color: #f9933b;
-  font-size: 18px;
-  font-weight: 600;
+.price-pack .price-discount .final{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
 }
-.pack-header .shopping-feature .price span {
-  color: #333;
-  width: 19px;
-  font-weight: 100;
+.price-pack .price-discount .final h6{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(255, 137, 9, 1);
 }
-
+.price-pack .price-discount .final img{
+    width: 16px;
+    height: 22px;
+}
 /* end slider off shop */
 /* start style scroll item header */
-.scroll-item {
-  width: 100%;
-  margin-top: 10px;
+.category-container {
+  max-width: 1600px;
+  width: 95vw;
+  margin: 2rem auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem;
 }
-.scroll-item .item {
+
+.category-box {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  padding: 1rem 1.5rem;
+  color: white;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 25px;
-  width: 180px;
-  height: 80px;
-  border-radius: 24px;
-  border: 1px solid #e7e7e7;
+  min-width: 160px;
+  flex: 1 1 150px;
+  max-width: 253px;
+  transition: all 0.3s ease;
+  text-align: center;
+  gap: 15px;
+  cursor: pointer;
 }
 
-.scroll-item .item.active {
-  border: 1px solid #f9933b;
-}
-.scroll-item .item .img {
-  margin-left: 5px;
-  width: 25px;
-  height: 25px;
+.category-box .icon {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
-.scrool-item .item .img img.active {
-  background: #f9933b;
-  width: 25px;
-  height: 25px;
-  border-radius: 35px;
-}
-.scroll-item .item .caption {
+.category-box .content-category{
   display: flex;
   flex-direction: column;
+  align-items: start;
 }
-.scroll-item .item .caption h3 {
-  color: #666;
-  font-size: 16px;
-}
-.scroll-item .item .caption span {
-  color: #999999;
+.category-box .content-category h4{
   font-size: 14px;
-  margin-top: 5px;
-  font-weight: bold;
+  font-weight: 500;
+  color: rgba(102, 102, 102, 1);
 }
+.category-box .content-category span{
+  font-size: 10px;
+  font-weight: bold;
+  color: #999;
+}
+.category-box.active {
+  border: 1px solid rgba(255, 117, 18, 1);
+}
+
+
 .swiper {
   width: 100%;
 }
@@ -821,7 +834,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 180px;
+  width: fit-content;
   height: 49px;
   border-radius: 12px;
   color: #999999;
