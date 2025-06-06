@@ -68,28 +68,44 @@
   .slider img {
     width: 100%;
   }
+  .main-swiper .swiper-slide img {
+    image-rendering: optimizeSpeed;
+    height: auto;
+  }
   .pack-header {
     width: 100%;
   }
-  .scroll-item .item {
-    width: 350px;
-  }
+  
   .img_icon-pack img {
     width: 100%;
   }
-  .aboutUs .about {
+  .category-box {
+    flex: 1 1 45%;
+    max-width: 31%;
+  }
+  .category-box .content-category h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(102, 102, 102, 1);
+  }
+  .products-container {
+    display: grid;
+    grid-template-columns: repeat(2, 303px) !important;
+    grid-template-rows: repeat(2, auto);
+  }
+  .about-Us .about{
     flex-direction: column;
   }
-  .aboutUs .about .img-about img {
+  .about-Us .about .img-about img{
     width: 100%;
   }
-  .aboutUs .about .content-about {
+  .about-Us .about .content-about{
     width: 100%;
   }
-  .Example-Work .cart-work {
+  .example-Work .cart-work{
     justify-content: center;
   }
-  .Example-Work .cart-work .item-work {
+  .example-Work .cart-work .item-work{
     width: 49%;
   }
   .comment .title-comment {
@@ -213,13 +229,7 @@
     margin-top: 10px;
     justify-content: space-between;
   }
-  .scroll-item .item {
-    width: 150px;
-  }
-
-  .scroll-item .item {
-    width: 160px;
-  }
+  
   .swiper-slide .items {
     width: 100%;
   }
@@ -236,28 +246,26 @@
   .aboutUs {
     margin: 50px auto;
   }
-  .aboutUs,
-  .Example-Work {
+  .about-Us,.Example-Work{
     margin-top: 0;
   }
-  .aboutUs .about .content-about .title-about {
+  .about-Us .about .content-about .title-about{
     flex-direction: column;
     align-items: start;
   }
-  .aboutUs .about {
+  .about-Us .about{
     gap: 20px;
   }
-  .aboutUs .about .content-about .caption p {
+  .about-Us .about .content-about .caption p{
     font-size: 16px;
   }
-  .Example-Work .title-work {
+  .example-Work .title-work{
     width: 100%;
   }
-  .Example-Work .title-work span,
-  .comment .title-comment span {
+  .example-Work .title-work span,.comment .title-comment span {
     font-size: 23px;
   }
-  .Example-Work .cart-work .item-work {
+  .example-Work .cart-work .item-work{
     width: 100%;
   }
   .comments {
@@ -295,9 +303,53 @@
   .contact .contact-form .form .address a {
     margin-top: 20px;
   }
+  .contact .contact-form .form .title{
+    width: 100%;
+  }
+  .blog  .title .heading{
+    width: 100%;
+  }
+  .blog  .title .heading h4{
+    font-size: 18px;
+  }
+  .mySwiper-blog .swiper-wrapper,.mySwiper-customer_reviews .swiper-wrapper{
+    gap: 0px;
+  }
+  .mySwiper-blog .swiper-slide{
+    width: 100%;
+  }
+  .slider-header-blog {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .mySwiper-blog .swiper-slide .img-blog img{
+    width: 100%;
+  }
+  .customer-reviews,.blog,.example-Work{
+    margin-top: 80px;
+  }
+  .customer-reviews  .title .heading{
+    width: 100%;
+  }
+  .customer-reviews  .title .heading h4{
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 576px) {
+  .contact .contact-form .form .individual .input-number input, .contact .contact-form .form .individual .input-name input{
+    padding: 18px 10px;
+    font-size: 12px;
+  }
+  button{
+    margin: 0 -30px;
+  }
+  .blog  .title .heading h4{
+    font-size: 14px;
+  }
+  .customer-reviews  .title .heading h4{
+    font-size: 10px;
+  }
 }
 @media screen and (max-width: 460px) {
 }
