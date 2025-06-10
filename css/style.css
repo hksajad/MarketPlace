@@ -866,7 +866,7 @@ img {
   margin: 0 auto;
   overflow: hidden;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -2279,7 +2279,7 @@ button {
 }
 .top-footer .img-vectors svg{
   position: absolute;
-  right: 150px;
+  right: 385px;
 }
 .content-top_footer{
   margin: 0 auto;
