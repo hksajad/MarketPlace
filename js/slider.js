@@ -31,6 +31,24 @@ var swiper = new Swiper(".mySwiper", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  breakpoints: {
+    0: {
+      slidesPerView: 3,
+      slidesPerGroup: 3,
+    },
+    640: {
+      slidesPerView: 2,
+      slidesPerGroup: 2,
+    },
+    768: {
+      slidesPerView: 4,
+      slidesPerGroup: 4,
+    },
+    1024: {
+      slidesPerView: 5,
+      slidesPerGroup: 5,
+    },
+  },
 });
 
 var appendNumber = 4;
