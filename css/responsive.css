@@ -123,6 +123,31 @@
     width: 330px;
     height: 225px;
   }
+  footer .content-footer{
+    flex-direction: column;
+  }
+  footer .content-footer .logo,footer .content-footer .list-footer{
+    width: 100%;
+  }
+  footer .content-footer .list-footer{
+    justify-content: space-between;
+  }
+  footer .content-footer{
+    gap: 10px;
+  }
+  footer .div{
+    flex-direction: column;
+    gap: 20px;
+  }
+  footer .div .newsletter{
+    width: 100%;
+  }
+  footer .div .credibility{
+    gap: 50px;
+  }
+  footer .caption-footer p{
+    text-align: center;
+  }
 }
 @media screen and (max-width: 768px) {
   .top-header ul {
@@ -336,6 +361,36 @@
   .customer-reviews  .title .heading h4{
     font-size: 18px;
   }
+  footer .content-footer .list-footer{
+    flex-direction: column;
+    gap: 20px;
+  }
+  footer .content-footer .logo p{
+    font-size: 14px;
+  }
+  footer .content-footer .logo img{
+    width: 225px;
+  }
+  footer .div .newsletter{
+    height: fit-content;
+  }
+  footer .div .newsletter .title{
+    flex-direction: column;
+    align-items: start;
+  }
+  footer .div .newsletter .title h5{
+    width: 100%;
+  }
+  .subscription-box button{
+    margin-left: 5px;
+  }
+  footer .div .credibility{
+    gap: 20px;
+    width: 100%;
+  }
+  footer .caption-footer p{
+    text-align: justify;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -351,6 +406,9 @@
   }
   .customer-reviews  .title .heading h4{
     font-size: 10px;
+  }
+  footer .div .credibility{
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 460px) {

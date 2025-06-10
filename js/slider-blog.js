@@ -18,6 +18,10 @@ new Swiper(".mySwiper-blog", {
       slidesPerView: 2,
       slidesPerGroup: 2,
     },
+    768: {
+      slidesPerView: 2,
+      slidesPerGroup: 1,
+    },
     1024: {
       slidesPerView: 4,
       slidesPerGroup: 1,
