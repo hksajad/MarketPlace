@@ -2161,6 +2161,7 @@ button {
 .customer-reviews{
   width: 100%;
   margin-top: 10px;
+  margin-bottom: 7rem;
 }
 .customer-reviews  .title{
   display: flex;
@@ -2258,6 +2259,57 @@ button {
 }
 /* end style customer reviews */
 /* start style footer */
+.top-footer{
+  max-width: 1600px;
+  width: 95vw;
+  margin: 0 auto;
+  overflow: hidden;
+  border-top-left-radius: 156px;
+  border-top-right-radius: 156px;
+  background: -webkit-linear-gradient(
+    135deg,
+    hsla(25, 100%, 54%, 1) 25%,
+    hsla(38, 100%, 50%, 1) 42%
+  );
+}
+.top-footer .img-vectors{
+  opacity: .3;
+  position: relative;
+}
+.top-footer .img-vectors svg{
+  position: absolute;
+  right: 150px;
+}
+.content-top_footer{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 63px 100px;
+}
+.content-top_footer h3{
+  font-size: 32px;
+  font-weight: 725;
+  color: rgba(255, 255, 255, 1);
+  width: 422px;
+  text-align: center;
+}
+.social{
+  display: flex;
+  gap: 15px;
+}
+.social .items{
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14.22px;
+  background-color: rgba(255, 243, 230, 1);
+}
+.social .items a img{
+  display: flex;
+}
 footer{
   width: 100%;
   background-color: rgba(255, 248, 238, 1);
